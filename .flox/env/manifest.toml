@@ -1,0 +1,22 @@
+version = 1
+
+[install]
+poetry.pkg-path = "poetry"
+python3.pkg-path = "python3"
+pip.pkg-path = "python312Packages.pip"
+
+[options]
+systems = [
+  "aarch64-darwin",
+  "aarch64-linux",
+  "x86_64-darwin",
+  "x86_64-linux",
+]
+
+[build.mycoolapp]
+command = """
+poetry build
+PIP_REQUIRE_VIRTUALENV=false pip3 install dist/mycoolapp-*.whl --prefix $out
+"""
+
+#runtime-packages = ["python3"]

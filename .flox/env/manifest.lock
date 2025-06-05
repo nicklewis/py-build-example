@@ -1,0 +1,398 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "pip": {
+        "pkg-path": "python312Packages.pip"
+      },
+      "poetry": {
+        "pkg-path": "poetry"
+      },
+      "python3": {
+        "pkg-path": "python3"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    },
+    "build": {
+      "mycoolapp": {
+        "command": "poetry build\nPIP_REQUIRE_VIRTUALENV=false pip3 install dist/mycoolapp-*.whl --prefix $out\n"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/78xiwsfnw2n4jhw36amka89cllhglbkk-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:24:34.051082Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/s2xzjskx0i95avdbjyrdmfqjpjxp4303-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/zs282yx9c70p709l6nwk3q1kxjawxhzm-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/8hp2h941xy283x75d1adgch8x8ylbg8f-python3.12-pip-25.0.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/rnqdv2cvizn0c00jjn0fswnh8aj1ii9q-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:43:35.764111Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/qh69x0j1sqc39rf68iiq9v0611h3jqvb-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/xwha9gyn8s1qx6ps6dv27g1n9aymg9kc-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/k7ljmn6zpa5v03wm21nax0mj60vq997m-python3.12-pip-25.0.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/ma8wpwwab0mdzkdj6xwbff424p94g87j-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:00:51.868689Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/mv4rdrr24khqrj1r1f6cr3wrg6dcgfks-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/5k56zx0pqanr0gdazv42rrgqb8hsbfc7-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/57p4c1hch6zi2blrrcqdslk8kj1zay0c-python3.12-pip-25.0.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python312Packages.pip",
+      "broken": false,
+      "derivation": "/nix/store/8jnidv56mfgv4sm6k06kyqqvxs013dmn-python3.12-pip-25.0.1.drv",
+      "description": "PyPA recommended tool for installing Python packages",
+      "install_id": "pip",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3.12-pip-25.0.1",
+      "pname": "pip",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:21:13.939902Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.0.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/h56804b30fpchnxyd4sdgbl3pl6j23m4-python3.12-pip-25.0.1-dist",
+        "man": "/nix/store/rgnnq49m447zb3bb8njsj5q2h268wqna-python3.12-pip-25.0.1-man",
+        "out": "/nix/store/4bga7q6f6azzyxfylznjyq1xq6146m1l-python3.12-pip-25.0.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poetry",
+      "broken": false,
+      "derivation": "/nix/store/lzspnd6jcwcng3c51yiv49zr7gh4aldr-python3.12-poetry-2.1.3.drv",
+      "description": "Python dependency management and packaging made easy",
+      "install_id": "poetry",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "poetry-2.1.3",
+      "pname": "poetry",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:24:28.736776Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.1.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/rim69jpxg54415838qcfjmpm0q4w8z5j-python3.12-poetry-2.1.3-dist",
+        "out": "/nix/store/k88mnd9q9dm3zrk1zb69j6jdyz6bk828-python3.12-poetry-2.1.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poetry",
+      "broken": false,
+      "derivation": "/nix/store/7jjwv8bx6mabrm8h22cakspxf87ahgs5-python3.12-poetry-2.1.3.drv",
+      "description": "Python dependency management and packaging made easy",
+      "install_id": "poetry",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "poetry-2.1.3",
+      "pname": "poetry",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:43:27.536466Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.1.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/yrp5jw81c7pzx8xhcb2r4iwmpv27il1h-python3.12-poetry-2.1.3-dist",
+        "out": "/nix/store/hzfm7mrx0i50k36ir02l58q3wia4girg-python3.12-poetry-2.1.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poetry",
+      "broken": false,
+      "derivation": "/nix/store/2lg8854mqx2awbi96li3d3pgwyizy87d-python3.12-poetry-2.1.3.drv",
+      "description": "Python dependency management and packaging made easy",
+      "install_id": "poetry",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "poetry-2.1.3",
+      "pname": "poetry",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:00:46.766582Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.1.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/55pi42ljqw9qn6472m2b7qpv0689y2pj-python3.12-poetry-2.1.3-dist",
+        "out": "/nix/store/ngj8ljgrwjx4dipnpm7ayiaxz82ym4mr-python3.12-poetry-2.1.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "poetry",
+      "broken": false,
+      "derivation": "/nix/store/2sxq7xh6jg3jf7390b02gvkq6cn8hpgi-python3.12-poetry-2.1.3.drv",
+      "description": "Python dependency management and packaging made easy",
+      "install_id": "poetry",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "poetry-2.1.3",
+      "pname": "poetry",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:21:04.833059Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.1.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/7wpzxpwzz5vsg20k7x1j2bbhls95h52z-python3.12-poetry-2.1.3-dist",
+        "out": "/nix/store/iba3xhlw8kj868lxmh2x5ryjl6j3gsys-python3.12-poetry-2.1.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/nzwj02s7zyxrzyqvcz3dvxdvwm2chv61-python3-3.12.10.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3-3.12.10",
+      "pname": "python3",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:24:29.423206Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v0vy1c59f0vf71h64caw17hzymvg0zms-python3-3.12.10"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/7k802fimdgwvibasmy6fmcn2ixy6xs0r-python3-3.12.10.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3-3.12.10",
+      "pname": "python3",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T04:43:28.783953Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/p61ablwahkxdx97pwlz29b04zpncgmvg-python3-3.12.10-debug",
+        "out": "/nix/store/rpf3admp58i0lwmsbv0y3dg7l7qqj4a9-python3-3.12.10"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/bry67cscjpz0zhmiprr7iyn3473f26c0-python3-3.12.10.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3-3.12.10",
+      "pname": "python3",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:00:47.435405Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/g13l84j8gn1fdhl3pzkg2r9ip9jz1hhd-python3-3.12.10"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/z22g908n9sgcdsly56xyph8qybxcdrm9-python3-3.12.10.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "name": "python3-3.12.10",
+      "pname": "python3",
+      "rev": "c2a03962b8e24e669fb37b7df10e7c79531ff1a4",
+      "rev_count": 810143,
+      "rev_date": "2025-06-03T05:50:57Z",
+      "scrape_date": "2025-06-05T05:21:06.238150Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.10",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/fi03x2bn49bmm3h53snkdmkypilnd5n2-python3-3.12.10-debug",
+        "out": "/nix/store/8w718rm43x7z73xhw9d6vh8s4snrq67h-python3-3.12.10"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

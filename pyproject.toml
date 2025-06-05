@@ -1,0 +1,20 @@
+[project]
+name = "mycoolapp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nick Lewis",email = "nick@floxdev.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "semver (>=3.0.4,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+mycoolcli = "mycoolapp.main:run"
